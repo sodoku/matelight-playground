@@ -22,7 +22,7 @@ process.stdin.on('keypress', function (ch, key) {
     letters = [];
     return;
   }
-  if(key) {
+  if(ch) {
     console.log(ch, key);
     m.clean();
     var ascii = ch.charCodeAt(0);
